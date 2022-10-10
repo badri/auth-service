@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const fs = require('fs');
 
-const hsbcManifest1 = {
+const manifest1 = {
   "max-cache-minutes": 15,
   "keys": [
     {
@@ -48,7 +48,7 @@ const newManifest2 = {
 }
 
 
-const hsbcManifest0 = {
+const manifest0 = {
   "max-cache-minutes": 20,
   "keys": [
     {
