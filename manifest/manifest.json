@@ -1,0 +1,14 @@
+{
+  "max-cache-minutes": 20,
+  "keys": [
+    {
+      "kid": "17GLrwRZj5LzsI7lNyxTJd0EGPeXYT6qbb7lcLsCTwQ",
+      "key": "MHwwDQYJKoZIhvcNAQEBBQADawAwaAJhAMJNjq0nd5eMwr7opVvyL06Lm3MVoWTyI0Nyu6WyVyWCkDHtER6CfqD0Sei+xaFrrdaUMfuDtSWbFR924cMJiIxOPtCdwVlZBfY0tD7ceVK9TEvlneP5jSNFDr/iwaug/wIDAQAB"
+    }
+  ],
+  "alg": "RS256",
+  "x5c": [
+    "k1",
+    "k2"
+  ]
+}

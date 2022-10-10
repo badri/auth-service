@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  manifest-service:
+    image: manifest-service
+    build:
+      context: ./manifest-service
+    ports:
+      - 3000:3000
+    volumes:
+      - ./manifest:/manifest
+
+networks:
+  default:
+    name: e2e-trust_kong_network
+    external: true
