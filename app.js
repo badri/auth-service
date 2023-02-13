@@ -7,7 +7,7 @@ require('log-timestamp');
 
 const indexRouter = require("./routes/index");
 const sigRouter = require("./routes/sig");
-
+const sentinelRouter = require("./routes/sentinel");
 const app = express();
 
 // view engine setup
@@ -23,6 +23,8 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use("/keys", indexRouter);
 
 app.use("/keys.sig", sigRouter);
+
+app.use("/sentinel", sentinelRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

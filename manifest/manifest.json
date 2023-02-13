@@ -3,7 +3,7 @@
   "keys": [
     {
       "kid": "17GLrwRZj5LzsI7lNyxTJd0EGPeXYT6qbb7lcLsCTwQ",
-      "key": "MHwwDQYJKoZIhvcNAQEBBQADawAwaAJhAMJNjq0nd5eMwr7opVvyL06Lm3MVoWTyI0Nyu6WyVyWCkDHtER6CfqD0Sei+xaFrrdaUMfuDtSWbFR924cMJiIxOPtCdwVlZBfY0tD7ceVK9TEvlneP5jSNFDr/iwaug/wIDAQAB"
+      "key": "MHwwDQYJKoZIhvcNAQEBBQADawAwaAJhAOz0YTcc5qsRSyNYUBPD/6H/vcbFqtTb+IcW45PAZ5lMIMj4DLdNF+/4ZlVSVKU9QfC5lio/X76sZhwG2u+7vwOBi1awuwQ91xVroeR4ozpRqs31DYDl7uCfbMZhbG2m4wIDAQAB"
     }
   ],
   "alg": "RS256",
